@@ -5,6 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Tables</title>
+    <style>
+        table,tr,td,th{
+            border-collapse: collapse;
+            border: 1px solid blue;
+            color: blue;
+            padding: 5px 10px;
+            text-align: center;
+            font-size: 25px;
+        }
+        table{
+            margin: 10px 20px;
+        }
+    </style>
 </head>
 <body>
     <table border="2">
@@ -24,5 +37,64 @@
             <td>30</td>
         </tr>
     </table>
+        <!-- table assignment -1  -->
+        <table border="2">
+            <tr>
+                <th></th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <th>Tickets Sold</th>
+                <td>120</td>
+                <td>135</td>
+            </tr>
+            <tr>
+                <th>Total Sales</th>
+                <td>$600</td>
+                <td>$675</td>
+            </tr>
+        </table>
+        <!-- table assignment 2 -->
+        <table border="2">
+            <tr>
+                <th></th>
+                <th>9am</th>
+                <th>10am</th>
+                <th>11am</th>
+                <th>12am</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td colspan="2">GeoGraphy</td>
+                <td>Math</td>
+                <td>Arts</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td colspan="3">Gym</td>
+                <td>Home Ecnomics</td>
+            </tr>
+        </table>
+        <!-- assignment -3  -->
+        <table>
+            <tr>
+                <th></th>
+                <th>ABC</th>
+                <th>BBC</th>
+                <th>CNN</th>
+            </tr>
+            <tr>
+                <th>6pm-7pm</th>
+                <td rowspan="2">Movie</td>
+                <td>Comedy</td>
+                <td>News</td>
+            </tr>
+            <tr>
+                <th>7pm-8pm</th>
+                <td>Sports</td>
+                <td>Current Affairs</td>
+            </tr>
+        </table>
 </body>
 </html>
